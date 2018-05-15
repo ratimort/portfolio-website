@@ -1,0 +1,281 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 3000px) {
+.head .row .container .head-top .menu ul li {
+	padding: 26px 9px;
+}
+
+}
+@media only screen and (max-width: 1200px) {
+.head {
+	height: 650px;
+}
+.head .row {
+	height: 650px;
+}
+.head .row .container .head-top .menu ul li {
+	padding: 27px 10px;
+}
+.head .row .container .head-top .menu ul li a {
+	font-size: 13px;
+}
+.head .row .container .head-top .logo {
+	padding: 18px 15px;
+}
+.head .row .container .head-center {
+	margin: 75px 0 100px;
+}
+.head .row .container .head-center h1 {
+	font-size: 75px;
+}
+.rates .container .column-1 .left .text {
+ 	left: 79%;
+ 	bottom: 17%;
+}
+}
+
+@media only screen and (max-width: 1190px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+
+}
+@media only screen and (max-width: 996px) {
+.head .row .container .head-top .menu {
+	padding: 0;
+}
+.head .row .container .head-top .menu ul {
+	padding: 0;
+}
+.head .row .container .head-top .menu ul li {
+	padding: 28px 10px;
+}
+.head .row .container .head-top .menu ul li a {
+	font-size: 12px;
+}
+.head .row .container .head-top .logo {
+	padding: 17px 15px;
+}
+.head .row .container .head-center {
+	margin: 100px 0 100px;
+}
+.head .row .container .head-center h1 {
+	font-size: 55px;
+}
+.description-2 .container .image-text .image-text-1, .description-2 .container .image-text .col-md-3 {
+	margin: 10px 0
+}
+}
+@media only screen and (max-width: 991px) {
+.rates .container .column-1 .left .text {
+	transform: rotate(0deg);
+}
+.rates .container .column-1 .left .text {
+    left: 60%;
+    bottom: 0%;
+}
+.rates .container .column-1 .left .text img {
+	transform: rotate(90deg);
+}
+.rates .container .column-1 .left {
+	margin-bottom: 20px;
+}
+.rates .container .column-2 .right {
+	margin-bottom: 20px;
+}
+.rates .container .column-2 .left {
+	display: none;
+}
+.rates .container .column-2 .left-1 {
+	display: block;
+}
+.rates .container .column-2 .left_3 {
+	display: none;
+}
+.rates .container .column-2 .left-3 {
+	display: block;
+}
+.rates .container .column-2 .right .text {
+	top: inherit;
+	left: 60%;
+	bottom: 0;
+}
+.contact .container .contact-form #form .left {
+	padding: 0;
+}
+.contact .container .contact-form #form .right {
+	padding: 20px 0 20px 0;
+}
+}
+@media only screen and (max-width: 823px) {
+.description-1 .container .text p {
+	font-size: 23px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+.head .row .container .head-center h1 {
+	font-size: 45px;
+	letter-spacing: 0px;
+}
+.head .row .container .head-center h2 {
+	font-size: 25px;
+	letter-spacing: 0px;
+}
+.head .row .container .head-bottom .button a {
+	font-size: 25px;
+}
+.head .row .container .head-center {
+    margin: 110px 0 100px;
+}
+.description-2 .container .text {
+	margin: 0 0 20px;
+}
+.description-1 .container .text h1 {
+	font-size: 40px;
+}
+.description-1 .container .text p {
+	font-size: 20px;
+}
+.description-2 .container .text h1 {
+	font-size: 40px;
+}
+.description-2 .container .text p {
+	font-size: 20px;
+}
+.rates .container .text h1 {
+	font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+}
+@media only screen and (max-width: 700px) {
+.description-2 .container .image-text .image-text-1, .description-2 .container .image-text .col-md-3 {
+	height: 270px;
+}
+.rates .container .column-1 .left p {
+	font-size: 20px;
+}
+.rates .container .column-2 .right p {
+	font-size: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width: 580px) {
+.description-2 .container .image-text .image-text-1, .description-2 .container .image-text .col-md-3 {
+	width: 100%;
+	height: 100%;
+}
+.description-2 .container .image-text .image-text-1 img, .description-2 .container .image-text .col-md-3 img {
+	padding: 0px 100px 0 100px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+.head .row .container .head-center {
+    margin: 90px 0 100px;
+}
+.description-2 .container .image-text .image-text-1 img, .description-2 .container .image-text .col-md-3 img {
+	padding: 0px 80px 0 80px;
+}
+.rates .container .column-1 {
+	padding: 0;
+}
+.rates .container .column-1 .left p {
+	font-size: 18px;
+	padding: 0;
+}
+.rates .container .column-1 .left h2 {
+	margin: 0px 0px 20px;
+}
+.rates .container .column-1 .left .text {
+    left: 65%;
+    bottom: 4%;
+}
+.rates .container .column-2 {
+	padding: 0;
+}
+.rates .container .column-2 .right p {
+	font-size: 18px;
+	padding: 0;
+}
+.rates .container .column-2 .right h2 {
+	margin: 0px 0px 20px;
+}
+.rates .container .column-2 .right .text {
+    left: 65%;
+    bottom: 4%;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+.rates .container .column-1 .left .text {
+	width: 111px;
+}
+.rates .container .column-1 .left .text img {
+	width: 18px;
+}
+.rates .container .column-2 .right .text {
+	width: 111px;
+}
+.rates .container .column-2 .right .text img {
+	width: 18px;
+}
+}
+@media only screen and (max-width: 380px) {
+.head .row .container .head-center {
+	margin: 90px 0 100px;
+}
+.head .row .container .head-center h1 {
+	font-size: 35px;
+	letter-spacing: 0px;
+}
+.head .row .container .head-center h2 {
+	font-size: 20px;
+	letter-spacing: 0px;
+}
+.head .row .container .head-bottom .button a {
+	font-size: 20px;
+}
+.description-2 .container .image-text .image-text-1 img, .description-2 .container .image-text .col-md-3 img {
+	padding: 0px 60px 0 60px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
